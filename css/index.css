@@ -1,0 +1,11 @@
+.box-user {
+    background-color: red;
+    width: 80%;
+    height: 30%;
+}
+
+.box-login {
+    background-color: blue;
+    width: 20%;
+    height: 80%;
+}
