@@ -20,12 +20,30 @@ main {
 }
 
 /*Cores*/
+.bg-color-1 {
+    background-color: #EEEEEE;
+}
+
+.bg-color-2 {
+    background-color: #00ADB5;
+}
+
+.bg-color-3 {
+    background-color: #393E46;
+}
+
+.bg-color-4 {
+    background-color: #222831;
+}
 
 /*Alinhamentos*/
-.all-center-column {
-    display: flex;
-    flex-direction: column;
+.all-center {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
 }

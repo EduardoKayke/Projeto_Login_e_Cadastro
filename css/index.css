@@ -1,11 +1,12 @@
 .box-user {
-    background-color: red;
     width: 80%;
     height: 30%;
+    padding: 30px;
+    border: 2px black solid;
+    border-radius: 5px;
 }
 
 .box-login {
-    background-color: blue;
-    width: 20%;
-    height: 80%;
+    width: 50%;
+    height: 300px;
 }
