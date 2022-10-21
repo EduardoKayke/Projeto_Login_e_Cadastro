@@ -19,6 +19,27 @@ main {
     height: 100%;
 }
 
+h1 {
+    padding-bottom: 20px;
+}
+
+a {
+    color: #fff;
+    font-weight: 800;
+    padding: 10px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+}
+
+label {
+    width: 200px;
+    text-align: left;
+    margin-top: 10px;
+}
+
 /*Cores*/
 .bg-color-1 {
     background-color: #EEEEEE;

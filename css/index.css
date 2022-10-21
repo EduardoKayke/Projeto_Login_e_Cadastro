@@ -7,7 +7,7 @@
 }
 
 .img-index-fundo {
-    background-image: url(../source/image/objetos.jpg);
+    background-image: url(../source/image/objetos3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -45,27 +45,6 @@
     cursor: pointer;
     margin-bottom: 10px;
     border-radius: 5px;
-}
-
-h1 {
-    padding-bottom: 30px;
-}
-
-a {
-    color: #fff;
-    font-weight: 800;
-    padding: 10px;
-}
-
-input {
-    width: 200px;
-    height: 30px;
-}
-
-label {
-    width: 200px;
-    text-align: left;
-    margin-top: 10px;
 }
 
 /*Resposividade*/
