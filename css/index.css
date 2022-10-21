@@ -67,3 +67,14 @@ label {
     text-align: left;
     margin-top: 10px;
 }
+
+/*Resposividade*/
+@media(max-width: 450px){
+    .box-login {
+        width: 350px;
+        height: 500px;
+        border-radius: 20px;
+        border: 2px black solid;
+        color: #fff;
+    }
+}
