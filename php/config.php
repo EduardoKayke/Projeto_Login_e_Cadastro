@@ -13,7 +13,7 @@ $conexao = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
 if($conexao -> connect_errno){
     echo "Erro ao tentar conexão com o banco de dados";
 } else {
-    echo "Conexão ao banco de dados efetuada com sucesso";
+    header("Location: ../index.html");
 }
 
 ?>
