@@ -11,7 +11,7 @@
 
 body {
     width: auto;
-    height: 100vh;
+    height: 100%;
 }
 
 main {
@@ -37,7 +37,16 @@ input {
 label {
     width: 200px;
     text-align: left;
-    margin-top: 10px;
+}
+
+.radio-disc {
+    height: 15px;
+}
+
+.linha-radio {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
 }
 
 /*Cores*/

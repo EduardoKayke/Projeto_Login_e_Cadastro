@@ -6,6 +6,16 @@
     color: #fff;
 }
 
+.box-cadastro2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 400px;
+    height: 1000px;
+    border-radius: 20px;
+    border: 2px black solid;
+    color: #fff;
+}
+
 .img-cadastro-fundo {
     background-image: url(../source/image/objetos2.jpg);
     background-repeat: no-repeat;
