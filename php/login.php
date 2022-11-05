@@ -6,25 +6,38 @@ include_once('config.php');
 // Variáveis de Login
 $email = addslashes($_POST['email']);
 $senha = addslashes($_POST['senha']);
+$entrar = addslashes($_POST['entrar']);
 
-// Busca no Banco de dados
-$buscar_email = mysqli_query($conexao, "SELECT * FROM usuarios WHERE email = '$email'");
-$buscar_senha = mysqli_query($conexao, "SELECT * FROM usuarios WHERE email = '$senha'");
+// Login exemplo, do admin e do usuário
+if ($email === 'adm@gmail.com' and $senha === '123456'){
+    header("Location: ../html/aplicacao.html");
 
+} elseif ($email === 'usuario@gmail.com' and $senha === '123456'){
+    header("Location: ../html/aplicacao.html");
+
+};
+
+// Login de usuário cadastrado pelo banco de dados
 if($conexao == True){
-    // Login de usuário exemplo, do admin e do usuário cadastrado pelo banco
-    if($email === 'adm@gmail.com' and $senha === '123456'){
-        header("Location: ../html/aplicacao.html");
-    } elseif ($email === 'usuario@gmail.com' and $senha === '123456'){
-        header("Location: ../html/aplicacao.html");
-    } elseif ($email and $senha === $buscar_email and $buscar_senha){
-        header("Location: ../html/aplicacao.html");
-    } else {
-        echo "Senha ou Usuário incorreto.";
-    }
+
+    if(isset($entrar)){
+        $verifica = $conexao -> query("SELECT * FROM usuarios WHERE email = '$email' AND senha = '$senha'") or die ("erro ao selecionar coluna");
+
+        $rows = $verifica -> num_rows;
+
+        if($rows <= 0){
+            echo "Email ou Senha incorretos.";
+        } else {
+            setcookie("email", $email);
+            header("Location: ../html/aplicacao.html");
+
+        };
+
+    };
+    
 } else {
     echo "Erro ao tentar conexão com o banco de dados";
-}
+};
 
 
 ?>
