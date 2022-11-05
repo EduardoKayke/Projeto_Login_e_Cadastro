@@ -1,5 +1,6 @@
 <?php
 
+// Chamando o arquivo config.php com o acesso ao banco de dados.
 include_once("config.php");
 
 $nome = addslashes($_POST['nome']);
@@ -14,3 +15,9 @@ $senha = addslashes($_POST['senha']);
 
 $result = mysqli_query($conexao, "INSERT INTO usuarios(nome, email, telefone, sexo, data_nascimento, cidade, estado, endereco, senha) VALUES ('$nome', '$email', '$telefone', '$sexo', '$data_nascimento', '$cidade', '$estado', '$endereco', '$senha')");
 
+// Após cadastro
+if($conexao == True){
+    header("Location: ../index.html");
+} else {
+    echo "Erro ao tentar conexão com o banco de dados";
+}
