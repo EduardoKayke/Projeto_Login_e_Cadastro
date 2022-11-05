@@ -65,3 +65,5 @@ __Além disso temos as seguintes telas:__
 __OBS: Talvez você tenha que adicionar o caminho do PHP no path do sistema, para que seja reconhecido pelo sistema operacional.__
 
 ## Imagens do Projeto
+![Login](source/image/readme_login.png)
+![Cadastro](source/image/readme_cadastro.jpg)
