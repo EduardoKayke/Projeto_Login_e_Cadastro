@@ -45,7 +45,7 @@ __Além disso temos as seguintes telas:__
 
 ### Como rodar a aplicação?
 - Primeiro você deve fazer o download do [xampp.](https://www.apachefriends.org/index.html)
-- Depois de baixar, você deve ir até a pasta __htdocs__ geralmente no caminho a seguir:
+- Depois de baixar, você deve ir até a pasta __htdocs__, dependendo do sistema operacional pode mudar, mas geralmente é no caminho a seguir:
     ```code
     C:\xampp\htdocs
     ```
