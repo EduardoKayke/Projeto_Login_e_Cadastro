@@ -1,6 +1,7 @@
 /*Importando arquivos CSS*/
 @import url("cadastro.css");
 @import url("index.css");
+@import url("erro_login.css");
 
 /*Configuração global*/
 * {

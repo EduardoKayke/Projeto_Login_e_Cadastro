@@ -9,10 +9,4 @@ $dbName = 'appitens';
 // Conexão PHP para MySQL
 $conexao = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
 
-// Após cadastro
-// if($conexao -> connect_errno){
-//     echo "Erro ao tentar conexão com o banco de dados";
-// } else {
-//     header("Location: ../index.html");
-// }
 ?>

@@ -26,7 +26,7 @@ if($conexao == True){
         $rows = $verifica -> num_rows;
 
         if($rows <= 0){
-            echo "Email ou Senha incorretos.";
+            header("Location: ../html/erro_login.html");
         } else {
             setcookie("email", $email);
             header("Location: ../html/aplicacao.html");
