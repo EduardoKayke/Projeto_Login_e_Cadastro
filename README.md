@@ -62,7 +62,7 @@ __Além disso temos as seguintes telas:__
     ```
 - Pronto, a aplicação está rodando!
 
-__OBS: Talvez você tenha que adicionar o caminho do PHP no path do sistema, para que seja reconhecido pelo sistema operacional.__
+__OBS: Talvez você tenha que adicionar o caminho do PHP no path do sistema, para que o PHP seja reconhecido pelo sistema operacional.__
 
 ## Imagens do Projeto
 ![Login](source/image/readme_login.png)
