@@ -8,7 +8,7 @@ $email = addslashes($_POST['email']);
 $senha = addslashes($_POST['senha']);
 $entrar = addslashes($_POST['entrar']);
 
-// Login exemplo, do admin e do usuário
+// Login exemplo do admin e do usuário
 if ($email === 'adm@gmail.com' and $senha === '123456'){
     header("Location: ../html/aplicacao.html");
 
