@@ -8,15 +8,6 @@ $email = addslashes($_POST['email']);
 $senha = addslashes($_POST['senha']);
 $entrar = addslashes($_POST['entrar']);
 
-// Login exemplo do admin e do usuário
-if ($email === 'adm@gmail.com' and $senha === '123456'){
-    header("Location: ../html/aplicacao.html");
-
-} elseif ($email === 'usuario@gmail.com' and $senha === '123456'){
-    header("Location: ../html/aplicacao.html");
-
-};
-
 // Login de usuário cadastrado pelo banco de dados
 if($conexao == True){
 

@@ -9,12 +9,12 @@
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
         <link rel='shortcut icon' href='#'>
         <title>Página de Login</title>
-        <link rel='stylesheet' type='text/css' href='css/style.css'>
+        <link rel='stylesheet' type='text/css' href='../css/style.css'>
         <script src='#' defer></script>
     </head>
     <body class="all-center column bg-color-1 img-index-fundo">
         <main class="all-center column">
-            <form action="php/login.php" method="POST">
+            <form action="../php/admin.php" method="POST">
                 <div class="box-login all-center column bg-color-3">
                     <h1>Coisas Emprestadas</h1>
                     <label for="email">E-mail</label>
@@ -22,18 +22,11 @@
                     <br>
                     <label for="senha">Senha</label>
                     <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
-                    <a href="html/adm.html">Entrar como administrador</a>
                     <a href="#">Esqueci minha senha</a>
                     <input type="submit" class="btn-login" name="entrar" value="Entrar"></input>
-                    <p>ou</p>
-                    <a href="../index.html">
-                        <button class="btn-facebook">Continuar com o Facebook</button>
-                    </a>
-                    <a href="../index.html">
-                        <button class="btn-google">Continuar com o Google</button>
-                    </a>
                     <p>Ainda não está cadastrado?</p>
                     <a href="html/cadastro.html">Criar uma conta</a>
+                    <a href="../index.html">Voltar</a>
                 </div>
             </form>
         </main>
