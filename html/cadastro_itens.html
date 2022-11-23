@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+    <head>
+        <meta http-equiv='Content-type' content='text/html; charset=UTF-8'/>
+        <link rel='shortcut icon' href='#'>
+	    <title>Cadastro de Itens</title>
+        <link rel='stylesheet' type='text/css' href='../css/style.css'>
+        <script src='#' defer></script>
+    </head>
+    <body class="all-center column bg-color-1 img-cadastro-fundo">
+        <main class="all-center column">
+            <form action="../php/cadastro_itens.php" method="POST">
+                <div class="box-cadastro2 all-center column bg-color-3">
+                    <h1>Cadastro de Itens</h1>
+                    <label for="nome">Nome do Livro</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite o nome do Livro" required>
+                    <br>
+		            <label for="editora">Editora</label>
+                    <input type="text" name="Editora" id="editora" placeholder="Digite a editora" required>
+                    <br>                    
+                    <label for="data_edicao">Data de Edição</label>
+                    <input type="date" name="data_edicao" id="data_edicao">
+                    <br>
+                    <input type="submit" class="btn-cadastro" value="Criar Item"></input>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
