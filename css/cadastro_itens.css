@@ -1,0 +1,12 @@
+.form-cadastro-itens {
+    margin-top: 100px;
+}
+
+.box-cadastro-itens {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border: 2px solid black;
+    color: white;
+    border-radius: 10px;
+}

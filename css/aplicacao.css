@@ -36,3 +36,7 @@
 .btn-nav:hover {
     box-shadow: 5px 5px 10px black;
 }
+
+.a-nav {
+    padding: 0px;
+}

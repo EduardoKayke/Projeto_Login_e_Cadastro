@@ -1,5 +1,6 @@
 /*Importando arquivos CSS*/
 @import url("aplicacao.css");
+@import url("cadastro_itens.css");
 @import url("cadastro.css");
 @import url("index.css");
 @import url("erro_login.css");
