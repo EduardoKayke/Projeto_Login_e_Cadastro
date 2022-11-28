@@ -8,7 +8,15 @@ $editora = addslashes($_POST['editora']);
 $data_edicao = addslashes($_POST['data_edicao']);
 
 
-$result = mysqli_query($conexao, "INSERT INTO itens(nome, editora, data_edicao) VALUES ('$nome', '$editora','$data_edicao')");
+//Monta o SQL para inserir os dados do formulário do MySQL
+
+$sql = "INSERT INTO cadastroItens(nome, editora, data_edicao) VALUES ('$nome', '$editora', '$data_edicao')";
+
+
+//Envia código SQL para o MySQL
+
+$result = mysqli_query($conexao, $sql);
+
 
 // Após cadastroItens
 if($conexao == True){

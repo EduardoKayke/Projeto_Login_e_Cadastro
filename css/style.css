@@ -1,4 +1,5 @@
 /*Importando arquivos CSS*/
+@import url("aplicacao.css");
 @import url("cadastro.css");
 @import url("index.css");
 @import url("erro_login.css");
@@ -77,4 +78,9 @@ label {
 .column {
     display: flex;
     flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
 }
