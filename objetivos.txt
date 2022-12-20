@@ -1,6 +1,0 @@
-
-1 - Pagina login
-2 - Pagina de cadastro de usuário e itens
-3 - Pagina de alteração de dados
-4 - Tela inicial (lista dos itens emprestados e permitir clicar em botão para cadastrar um novo empréstimo)
-5 - Pagina com Lista de itens pendentes
