@@ -5,7 +5,7 @@ Disciplina envolvida - Fundamentos de Programação Web._
 
 
 ### O que a aplicação faz?
-É um sistema web que envolve clientes e administradores, onde é possível emprestar itens, devolver, adicionar e remover.
+É um sistema web que envolve clientes e administradores, onde é possível criar uma conta e logar no sistema.
 
 __Existem dois usuários criados para teste, você pode usar:__
 
@@ -20,22 +20,6 @@ __Além disso temos as seguintes telas:__
 
     Tela de Cadastrar Novo Usuário
         Formulário de cadastro
-
-    Tela de Cadastrar Itens que o ADMIN pode acessar
-        Código do item
-        Tipo
-        Descrição
-    
-    Tela de Boas-Vindas
-        Lista de Itens emprestados (Cod.Item, Descrição, Data)
-        Cadastrar novo empréstimo
-        Alterar Dados(usuário e itens-admin)
-    
-    Tela de Itens Pendentes
-        Código do item
-        Descrição
-        Data do empréstimo
-        Data da devolução
     
 ### Ferramentas utilizadas.
 - __HTML__
